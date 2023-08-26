@@ -7,8 +7,7 @@
     <style></style>
     <script>
       var lang;
-      function initPage()
-      {
+      function initPage(){
         lang = window.navigator.language.toString().toLowerCase().split("-")[0];
         if(lang == "pt"){
           window.document.title = "2Kx BattleTestTool - Manual de instruções";
@@ -17,7 +16,7 @@
       }
     </script>
   </head>
-  <body>
+  <body onload="initPage()">
     Sorry, not available yet...
   </body>
 </html>
